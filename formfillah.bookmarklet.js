@@ -44,7 +44,7 @@ javascript:(function(){
     function fillForm(form) {
 
         form.style.transition = 'transform 0.25s ease-in-out';
-        form.style.transform = 'scale(1.05)';
+        form.style.transform = 'scale(1.02)';
         setTimeout(() => form.style.transform = 'scale(1)', 250);
         
         const processedRadioGroups = new Set();
